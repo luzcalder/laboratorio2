@@ -11,4 +11,4 @@ def hipotenusa(a,b):
     print h
     
 salida=hipotenusa(a,b)
-print salidaa
+print salida
