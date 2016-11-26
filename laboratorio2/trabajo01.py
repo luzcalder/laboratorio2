@@ -1,13 +1,14 @@
 #funcion
 #triangulo rectangulo
 #luz maria calderon aguilera
-entrada=input("catetos de untriangulo rectangulo ")
-a= input()
-b= input()
-def suma(a,b):
-    sa=a+b
-    print sa
-
-
-salida=suma(entrada)
-print salida
+import math as m
+a=input("Ingresa a")
+b=input("Ingresa b")
+def hipotenusa(a,b):
+    a=a
+    b=b
+    h=m.sqrt(a*a+b*b)
+    print h
+    
+salida=hipotenusa(a,b)
+print salidaa
